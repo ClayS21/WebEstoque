@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gVmOt/ykJ1IaV4uSVIfHZY3Up/Ete+SnsVpsjAsjcQdwoxmOpQ8aaafGNv3heJnsBKLoM9uFBcZI75xPg4uPQA==",
+  "dgSpecHash": "vjeTHZ3TVaClg4/Dw6l88LAPbFoSqDKRYGbasns6Uyb25u1vu3Nj/kmrie53mn2jndeSHPgC/xoEzHHTaokOnw==",
   "success": true,
-  "projectFilePath": "c:\\Code\\CSharp\\WebEstoque\\WebEstoque.csproj",
+  "projectFilePath": "C:\\Code\\CSharp\\WebEstoque\\WebEstoque.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cleiton\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Cleiton\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.17\\microsoft.aspnetcore.mvc.razor.extensions.5.0.17.nupkg.sha512",
