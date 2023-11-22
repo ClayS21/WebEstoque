@@ -23,7 +23,7 @@ namespace WebEstoque
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
-            services.AddDbContext<WebEstoqueContext>(options => options.UseSqlite("Data Source=estoque.db"));
+            services.AddDbContext<WebEstoqueContext>(options => options.UseSqlite(Configuration.GetConnectionString("WebEstoqueContext")));
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
