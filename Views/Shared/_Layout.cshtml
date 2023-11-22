@@ -1,5 +1,3 @@
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-
 @{
     var controllerAtual = ViewContext.RouteData.Values["controller"].ToString();
     var classeMenuPrincipal = controllerAtual == "Home" ? "active" : "";

@@ -1,6 +1,4 @@
-﻿@using WebEstoque.Models
-
-@if (TempData.ContainsKey("mensagem"))
+﻿@if (TempData.ContainsKey("mensagem"))
 {
     var mensagem = MensagemModel.Desserializar(TempData["mensagem"].ToString());
     @if (mensagem.Tipo == TipoMensagem.Erro)
